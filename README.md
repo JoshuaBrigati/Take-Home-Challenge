@@ -1,4 +1,10 @@
 ## Getting Started
+Download packages:
+```bash
+npm install
+# or
+yarn install
+```
 
 First, run the development server:
 
