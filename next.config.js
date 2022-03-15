@@ -3,4 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  env: {
+    JWT_KEY: 'Test123',
+  },
+  ...nextConfig
+}

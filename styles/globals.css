@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #ffffff;
+  background: radial-gradient(ellipse at bottom,#1b2735 0,#090a0f 100%);
+  height: 100%;
 }
 
 a {
@@ -14,3 +19,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@import './nav.css';
+@import './home.css';
+@import './login.css';
+@import './graph.css';
+@import './mainInput.css'

@@ -1,0 +1,96 @@
+.interactive-graph-container {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.graph-details {
+  padding: 0 25px;
+  margin-bottom: 45px;
+}
+.graph-details h1 {
+  font-family: 'Poppins';
+  margin: 0;
+}
+.graph-details h6 {
+  margin: 0;
+  font-size: 14px;
+  color: grey;
+}
+.graph-details .apys {
+  margin-top: 20px;
+}
+.graph-details .apys h5 {
+  margin: 5px 0;
+}
+
+.graph-options {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-right: auto;
+}
+.graph-options .graph-option-button {
+  border: 2px solid rgb(109, 131, 242);
+  background: transparent;
+  padding: 3px 12px;
+  font-size: 12px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.graph-options .graph-option-button.left-button {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.graph-options .graph-option-button.right-button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.graph-options .graph-option-button.selected {
+  background: rgb(109, 131, 242);
+}
+
+@media only screen and (max-width: 950px) {
+  .interactive-graph-container {
+    width: 95%;
+    align-items: unset;
+  }
+
+  .graph-details {
+    padding: 0 25px;
+    margin-bottom: 45px;
+  }
+  .graph-details h1 {
+    font-family: 'Poppins';
+    margin: 0;
+  }
+  .graph-details h6 {
+    margin: 0;
+    font-size: 14px;
+    color: grey;
+  }
+  .graph-details.apys {
+    margin-top: 20px;
+  }
+  .graph-details .apys h5 {
+    margin: 5px 0;
+  }
+
+  .graph-options {
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.custom-tooltip {
+  border: 2px solid rgb(109, 131, 242);
+  background: transparent;
+  padding: 5px 25px;
+  border-radius: 10px;
+}

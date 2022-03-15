@@ -1,0 +1,76 @@
+
+
+.main-input {
+  position: relative;
+  margin-bottom: 22px;
+  width: 100%;
+}
+
+.main-input input {
+  width: 100%;
+  border: none;
+  background: #37344D 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  padding: 20px;
+  font:
+    normal
+    normal
+    normal
+    16px/24px
+    Poppins-Regular;
+  letter-spacing: 0.75px;
+  color:#FCFCFC;
+}
+
+.main-input input:focus {
+  outline:none;
+}
+
+.main-input label {
+  position:absolute;
+  pointer-events:none;
+  left:20px;
+  top:20px;
+  transition:0.2s ease all;
+  font: normal normal normal 16px/24px Poppins-Regular;
+  letter-spacing: 0.75px;
+  color: #D9DBE9;
+}
+
+.main-input input:focus ~ label,
+.main-input input:valid ~ label,
+.main-input.special.error label {
+  top: 6px;
+  font: normal normal normal 12px/20px Poppins-SemiBold;
+  letter-spacing: 0.25px;
+  color: #b4b5bf;
+}
+
+.main-input input:valid {
+  padding-bottom: 10px;
+  padding-top: 30px;
+  top: 10px;
+}
+
+.main-input.special.error input {
+  padding-top: 28px;
+  padding-bottom: 8px;
+  top: 10px;
+}
+
+.main-input input:focus, .main-input.error input:focus {
+  padding: 28px 18px 8px;
+  top: 10px;
+  border: 2px solid #FCFCFC;
+  background: #14142B 0% 0% no-repeat padding-box;
+}
+
+.main-input.error input {
+  background: #37344D 0% 0% no-repeat padding-box;
+  border: 2px solid #FF75CB;
+  padding: 18px;
+}
+
+.main-input.error label {
+  color: #FF75CB;
+}
