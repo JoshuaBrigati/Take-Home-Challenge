@@ -8,7 +8,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: #ffffff;
   background: radial-gradient(ellipse at bottom,#1b2735 0,#090a0f 100%);
-  min-height: -webkit-fill-available;
+  height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 a {

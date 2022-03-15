@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div style={{height: '100vh'}}>
+    <div>
       <Navbar />
       <Component {...pageProps} />
     </div>
