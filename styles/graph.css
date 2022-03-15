@@ -1,5 +1,5 @@
 .interactive-graph-container {
-  min-height: 100vh;
+  height: 100%;
   padding: 4rem 0;
   flex: 1 1;
   display: flex;

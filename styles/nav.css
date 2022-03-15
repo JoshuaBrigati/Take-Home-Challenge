@@ -197,7 +197,7 @@
     right: 0px;
     padding: 50px 10px;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     outline: 0px;
     background-color: #112240;
     box-shadow: -10px 0px 30px -15px rgba(2,12,27,0.7);

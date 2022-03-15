@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 950px) {
   .login-in-container {
-    min-height: 100vh;
+    height: 100%;
     padding: 4rem 0;
     flex: 1 1;
     display: flex;
