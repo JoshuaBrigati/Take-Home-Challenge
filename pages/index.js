@@ -14,7 +14,10 @@ export default function Home() {
     });
 
     return () => {
-      window.removeEventListener('resize');
+      window.removeEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
     }
   })
 
