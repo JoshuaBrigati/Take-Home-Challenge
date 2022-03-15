@@ -38,7 +38,9 @@ const Login = ({ baseApiUrl }) => {
       Cookies.set('token', result.token);
       router.push('/graph');
     } else {
-      setStateFormMessage(result);
+
+      console.log("🚀 ~ file: login.js ~ line 36 ~ handleLogin ~ result", result)
+      setLoginError(result.error);
     }
   }
 

@@ -33,7 +33,7 @@
 }
 
 .login-in-container .login-error {
-  width: inherit;
+  margin: 15px auto;
 }
 
 .login-in-container button {

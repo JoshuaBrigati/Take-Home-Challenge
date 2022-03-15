@@ -1,8 +1,7 @@
 export const userData = [
   {
     id: 5301,
-    // username: "user@expx.fi", // replaced "test user" for email because of Post Login request.
-    username: 'a',
+    username: "user@expx.fi",
     contracts: [
       {
         id: 301,
